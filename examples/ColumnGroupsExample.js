@@ -32,7 +32,7 @@ class ColumnGroupsExample extends React.Component {
         {...this.props}>
         <ColumnGroup
           fixed={true}
-          header={<DataCell>Name</DataCell>}>
+          header={<DataCell></DataCell>}>
           <Column
             columnKey="firstName"
             fixed={true}
